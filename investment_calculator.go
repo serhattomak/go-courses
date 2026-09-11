@@ -53,4 +53,6 @@ func profit(revenue float64, expenses float64, taxRate float64) {
 	fmt.Println("Tax: ", fmt.Sprintf("%.2f", tax))
 	fmt.Println("Net earnings: ", fmt.Sprintf("%.2f", profit-tax))
 	fmt.Println("Ratio: ", fmt.Sprintf("%.2f", ratio), "%")
+
+	// fmt.Printf("Earnings before tax: %.2f\nTax: %.2f\nNet earnings: %.2f\nRatio: %.2f%%\n", profit, tax, profit-tax, ratio)
 }
